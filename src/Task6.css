@@ -1,0 +1,113 @@
+body {
+    background: rgb(30, 30, 30);
+  }
+.navbar{
+    background: rgb(30, 30, 30);
+    height:5rem;
+    width:100vm;
+    max-width:75rem ;
+    margin:0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    z-index: 3;
+    color: white;
+    
+}
+
+.desktopMenuListItem
+{
+    margin:1rem;
+    cursor:pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.desktopMenuListItem:hover
+{
+    color: rgb(228, 117, 154) ;
+    padding-bottom: 0.5rem;
+    border-bottom:3px solid rgb(228, 117, 154) ;
+}
+
+#intro{
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.introcontent
+{
+    height:100vh;
+    width: 100vh;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.hello
+{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.introName
+{
+    color: rgb(213, 54, 107);
+}
+
+.introPara
+{
+    font-size: medium;
+    font-weight: 600;
+}
+
+.btn
+{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btnImg
+{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+@media screen and (max-width:840px)
+{
+    .introcontent
+    {
+        font-size: 10vw;
+    }
+    .hello
+    {
+        font-size: 4.5vw;
+    }
+}
+
+#skills
+{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
